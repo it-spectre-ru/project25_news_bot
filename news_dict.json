@@ -1,0 +1,92 @@
+{
+    "532772": {
+        "article_date_timestamp": 1657711800.0,
+        "article_title": "Старые счёты: Все пострадавшие в результате утечки данных OPM получат выплаты в размере $700",
+        "article_url": "https://www.securitylab.ru/news/532772.php",
+        "article_desc": "Групповой иск был подан 7 лет назад, но суд урегулировал его только сейчас."
+    },
+    "532770": {
+        "article_date_timestamp": 1657710000.0,
+        "article_title": "Великобритания запретила компаниям платить выкуп вымогателям",
+        "article_url": "https://www.securitylab.ru/news/532770.php",
+        "article_desc": "Выкуп не вернет данные, а только привлечет других киберпреступников"
+    },
+    "532768": {
+        "article_date_timestamp": 1657708221.0,
+        "article_title": "Восставшая из мертвых SHI восстановила системы после масштабной кибератаки",
+        "article_url": "https://www.securitylab.ru/news/532768.php",
+        "article_desc": "Была утечка данных или нет - мы узнаем не скоро"
+    },
+    "532767": {
+        "article_date_timestamp": 1657706400.0,
+        "article_title": "Microsoft: Windows Autopatch теперь общедоступна",
+        "article_url": "https://www.securitylab.ru/news/532767.php",
+        "article_desc": "Сервис доступен клиентам Microsoft с лицензиями Windows Enterprise E3 и E5"
+    },
+    "532769": {
+        "article_date_timestamp": 1657705825.0,
+        "article_title": "Президент Европейского центрального банка стала жертвой кибератаки",
+        "article_url": "https://www.securitylab.ru/news/532769.php",
+        "article_desc": "Атака не увенчалась успехом – её быстро обнаружили и остановили специалисты центрального банка."
+    },
+    "532765": {
+        "article_date_timestamp": 1657702460.0,
+        "article_title": "NVIDIA объединяет классические и квантовые вычисления",
+        "article_url": "https://www.securitylab.ru/news/532765.php",
+        "article_desc": "Компания предоставляет квантовый процессор для всех желающих"
+    },
+    "532771": {
+        "article_date_timestamp": 1657700400.0,
+        "article_title": "Минцифры готовит изменения в законопроект об оборотных штрафах за утечки персональных данных",
+        "article_url": "https://www.securitylab.ru/news/532771.php",
+        "article_desc": "Ведомство настаивает на усилении ответственности за утечки персональных данных."
+    },
+    "532764": {
+        "article_date_timestamp": 1657699068.0,
+        "article_title": "Microsoft устранила 52 уязвимости повышения привилегий во вторник исправлений",
+        "article_url": "https://www.securitylab.ru/news/532764.php",
+        "article_desc": "А также критические и активно используемые ошибки"
+    },
+    "532763": {
+        "article_date_timestamp": 1657696808.0,
+        "article_title": "Злоумышленник маскируется под ИБ-компанию, чтобы обмануть жертву и проникнуть в систему",
+        "article_url": "https://www.securitylab.ru/news/532763.php",
+        "article_desc": "Новый вид фишинговой атаки использует «обратный звонок» и социальную инженерию"
+    },
+    "532761": {
+        "article_date_timestamp": 1657694814.0,
+        "article_title": "Сложная и незаметная кампания обходит многофакторную аутентификацию",
+        "article_url": "https://www.securitylab.ru/news/532761.php",
+        "article_desc": "Атака с использованием прокси, фишинга и e-mail ставит под угрозу существующие меры защиты"
+    },
+    "532760": {
+        "article_date_timestamp": 1657689258.0,
+        "article_title": "Uniswap потерял $8 млн из-за фишинговой атаки",
+        "article_url": "https://www.securitylab.ru/news/532760.php",
+        "article_desc": "Представители компании подтвердили фишинговую атаку, опровергнув наличие уязвимости в платформе."
+    },
+    "532759": {
+        "article_date_timestamp": 1657643274.0,
+        "article_title": "Дым без огня: группировка Luna Moth занимается вымогательством без вымогательского ПО",
+        "article_url": "https://www.securitylab.ru/news/532759.php",
+        "article_desc": "В своих нехитрых атаках злоумышленники используют готовые RAT и другие инструменты для кражи данных"
+    },
+    "532758": {
+        "article_date_timestamp": 1657638001.0,
+        "article_title": "Новое вымогательское ПО маскируется под обновление Google",
+        "article_url": "https://www.securitylab.ru/news/532758.php",
+        "article_desc": "HavanaCrypt использует необычный способ шифрования данных, даже не требуя выкуп"
+    },
+    "532757": {
+        "article_date_timestamp": 1657637952.0,
+        "article_title": "Мошенник заработал миллионы долларов, продавая поддельные устройства Cisco",
+        "article_url": "https://www.securitylab.ru/news/532757.php",
+        "article_desc": "Злоумышленник был арестован в Майами. Его обвиняют в продаже поддельных устройств на 1 миллиард долларов."
+    },
+    "532756": {
+        "article_date_timestamp": 1657635780.0,
+        "article_title": "Как ФБР прослушивало мир",
+        "article_url": "https://www.securitylab.ru/news/532756.php",
+        "article_desc": "Опубликована часть кода приложения для обмена зашифрованными сообщениями Anom."
+    }
+}
