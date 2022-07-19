@@ -5,7 +5,7 @@ import json
 
 
 
-bot = Bot(token=token)
+bot = Bot(token=token, parse_mode=types.ParseMode.HTML)
 dp = Dispatcher(bot)
 
 
@@ -20,12 +20,14 @@ async def get_all_news(message: types.Message):
     news_dict = json.load(file)
 
   for k, v in sorted(news_dict.items()):
-    news = f"{datetime.datetime.fromtimestamp(v['article_date_timestamp'])}\n" \
-      f"{v['article_title']}\n" \
-      f"{v['article_desc']}\n" \
+    news = f"<b>{datetime.datetime.fromtimestamp(v['article_date_timestamp'])}</b>\n" \
+      f"<u>{v['article_title']}</u>\n" \
+      f"<code>{v['article_desc']}</code>\n" \
       f"{v['article_url']}"
 
     await message.answer(news)
+
+
 
 
 
