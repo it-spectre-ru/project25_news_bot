@@ -11,9 +11,13 @@ bot = Bot(token=token, parse_mode=types.ParseMode.HTML)
 dp = Dispatcher(bot)
 
 
-# @dp.message_handler(commands='start')
-# async def start(message: types.Message):
-#   await message.reply('Go to the Dream')
+@dp.message_handler(commands='start')
+async def start(message: types.Message):
+  start_buttons = ['All mews', 'Last five news', 'Freshh!' ]
+  keyboard = types.ReplyKeyboardMarkup()
+  keyboard.add(*start_buttons)
+  
+  await message.answer('Lent news//', reply_markup=keyboard)
 
 
 @dp.message_handler(commands='all_news')
