@@ -1,7 +1,8 @@
+import asyncio
 from aiogram import Bot, Dispatcher, executor, types
 from aiogram.utils.markdown import hbold, hunderline, hcode, hlink
 from aiogram.dispatcher.filters import Text
-from config import token
+from config import token, user_id
 import datetime
 import json
 from main import check_news_update
@@ -71,6 +72,25 @@ async def get_fresh_news(message: types.Message):
     await message.answer('not news now')
 
 
+async def news_every_minute():
+  while True:
+    fresh_news = check_news_update()
+
+    if len(fresh_news) >= 1:
+      for k, v in sorted(fresh_news.items()):
+       news = f"{hbold(datetime.datetime.fromtimestamp(v['article_date_timestamp']))}\n" \
+        f"{hlink(v['article_title'], v['article_url'])}"
+
+      # @userinfobot -get you id
+      await bot.send_message(user_id, news, disable_notification=True)
+    
+    else:
+      await bot.send_message(user_id, 'not fresh news', disable_notification=True)
+
+    await asyncio.sleep(20)
+
+
+
 
 
 
@@ -78,4 +98,6 @@ async def get_fresh_news(message: types.Message):
 
 
 if __name__ == '__main__':
+  loop = asyncio.get_event_loop()
+  loop.create_task(news_every_minute())
   executor.start_polling(dp)
