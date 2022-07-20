@@ -3,6 +3,7 @@ from aiogram.utils.markdown import hbold, hunderline, hcode, hlink
 from config import token
 import datetime
 import json
+from main import check_news_update
 
 
 
@@ -39,7 +40,7 @@ async def get_all_news(message: types.Message):
 
 
 @dp.message_handler(commands='last_five')
-async def get_all_news(message: types.Message):
+async def get_last_five_news(message: types.Message):
   with open("news_dict.json") as file:
     news_dict = json.load(file)
 
@@ -48,6 +49,24 @@ async def get_all_news(message: types.Message):
       f"{hlink(v['article_title'], v['article_url'])}"
 
     await message.answer(news)
+
+
+@dp.message_handler(commands='fresh_news')
+async def get_fresh_news(message: types.Message):
+  fresh_news = check_news_update()
+
+  if len(fresh_news) >= 1:
+    for k, v in sorted(fresh_news.items()):
+      news = f"{hbold(datetime.datetime.fromtimestamp(v['article_date_timestamp']))}\n" \
+        f"{hlink(v['article_title'], v['article_url'])}"
+
+      await message.answer(news)
+
+  else:
+    await message.answer('not news now')
+
+
+
 
 
 

@@ -1,22 +1,4 @@
 {
-    "532810": {
-        "article_date_timestamp": 1657891800.0,
-        "article_title": "США стала мишенью агрессивной кампании программ-вымогателей",
-        "article_url": "https://www.securitylab.ru/news/532810.php",
-        "article_desc": "Взломы выводят из строя оборудование и мешают работе скорой помощи."
-    },
-    "532809": {
-        "article_date_timestamp": 1657890035.0,
-        "article_title": "Миллионы сайтов WordPress могут быть захвачены из-за одного плагина",
-        "article_url": "https://www.securitylab.ru/news/532809.php",
-        "article_desc": "Ежедневно происходит более 400 тыс. попыток взлома"
-    },
-    "532807": {
-        "article_date_timestamp": 1657888320.0,
-        "article_title": "Спрос на криптовалютные миксеры вырос из-за увеличения преступной деятельности",
-        "article_url": "https://www.securitylab.ru/news/532807.php",
-        "article_desc": "Мошенникам тоже нужна конфиденциальность для отмывания средств"
-    },
     "532808": {
         "article_date_timestamp": 1657886400.0,
         "article_title": "ИБ-исследователи потревожили улей: вышел дешифратор для Hive 5 версии",
